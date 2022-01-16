@@ -21,7 +21,7 @@ namespace AC.Composition
     /// Plugins set
     /// </summary>
     [ImportMany]
-    public IEnumerable<Lazy<TPlugin, TPluginMetadata>> Plugins
+    public IEnumerable<Lazy<TPlugin, TPluginMetadata>>? Plugins
     {
       get;
       set;
@@ -44,7 +44,7 @@ namespace AC.Composition
     /// <param name="path"></param>
     /// <param name="searchPattern"></param>
     /// <param name="exportedValues"></param>
-    public PluginLoader(string path = null, string searchPattern = null, params ComposablePartCatalog[] composableCatalogs)
+    public PluginLoader(string? path = null, string? searchPattern = null, params ComposablePartCatalog[] composableCatalogs)
     {
       // Example:
       //var catalog = new AggregateCatalog(
@@ -53,18 +53,20 @@ namespace AC.Composition
       //       new DirectoryCatalog(".", "TD.Framework.Presentation.*.dll"),// The Framework
       //       new DirectoryCatalog(".", "TD.Toolkit.Presentation.*.dll")); // The Toolkit      
 
-      string pluginPath = path;      
+      string? pluginPath = path;      
 
       if (string.IsNullOrEmpty(pluginPath))
       {
         // Current path
-        string codeBase = Assembly.GetExecutingAssembly().CodeBase;
+        string codeBase = Assembly.GetExecutingAssembly().Location;
         UriBuilder uri = new UriBuilder(codeBase);
         string executingAssemblyPath = Uri.UnescapeDataString(uri.Path);
         pluginPath = Path.GetDirectoryName(executingAssemblyPath);
       }
+
+      if (pluginPath == null) throw new NullReferenceException($"{nameof(pluginPath)} is not found!");
       
-      DirectoryCatalog directoryCatalog = null;
+      DirectoryCatalog? directoryCatalog = null;
       if (!string.IsNullOrEmpty(searchPattern))
       {
         directoryCatalog = new DirectoryCatalog(pluginPath, searchPattern);
