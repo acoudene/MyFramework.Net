@@ -27,29 +27,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{93
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Supervision", "Supervision", "{F0FEFBA4-E326-48BE-ACC3-87914CE2BE27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Common", "Common\AC.Common\AC.Common.csproj", "{77FC6C8A-721C-410A-B683-9151DDEA1ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Common", "Common\AC.Common\AC.Common.csproj", "{77FC6C8A-721C-410A-B683-9151DDEA1ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Data", "Data\AC.Data\AC.Data.csproj", "{4C137C3D-A4C2-43CD-9735-D02AE85807A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Data", "Data\AC.Data\AC.Data.csproj", "{4C137C3D-A4C2-43CD-9735-D02AE85807A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Communication", "Communication\AC.Communication\AC.Communication.csproj", "{1CCE2A92-260F-4C97-AE71-DAD87AAF48BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Communication", "Communication\AC.Communication\AC.Communication.csproj", "{1CCE2A92-260F-4C97-AE71-DAD87AAF48BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.IoC", "IoC\AC.IoC\AC.IoC.csproj", "{465F1386-53F1-4B79-BD97-20BCFFB7E0BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.IoC", "IoC\AC.IoC\AC.IoC.csproj", "{465F1386-53F1-4B79-BD97-20BCFFB7E0BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Supervision", "Supervision\AC.Supervision\AC.Supervision.csproj", "{750881EF-EFE0-4A9D-AD37-A6FA4BFE0E8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Supervision", "Supervision\AC.Supervision\AC.Supervision.csproj", "{750881EF-EFE0-4A9D-AD37-A6FA4BFE0E8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Bootstrapping", "Bootstrapping\AC.Bootstrapping\AC.Bootstrapping.csproj", "{6F670D8C-F36C-4E4F-AE0E-611F2F91871A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Bootstrapping", "Bootstrapping\AC.Bootstrapping\AC.Bootstrapping.csproj", "{6F670D8C-F36C-4E4F-AE0E-611F2F91871A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Business", "Business\AC.Business\AC.Business.csproj", "{0E808493-367A-4640-B533-AB53FDF5F787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Business", "Business\AC.Business\AC.Business.csproj", "{0E808493-367A-4640-B533-AB53FDF5F787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Caching", "Caching\AC.Caching\AC.Caching.csproj", "{89F367E1-9C95-4C95-82AB-1B9AD0058A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Caching", "Caching\AC.Caching\AC.Caching.csproj", "{89F367E1-9C95-4C95-82AB-1B9AD0058A99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Configuration", "Configuration\AC.Configuration\AC.Configuration.csproj", "{C675CE0E-93A7-42F7-9140-E89F3495674E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Configuration", "Configuration\AC.Configuration\AC.Configuration.csproj", "{C675CE0E-93A7-42F7-9140-E89F3495674E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Globalization", "Globalization\AC.Globalization\AC.Globalization.csproj", "{EA75047A-798D-41A2-90A7-E6E81EE2491E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Globalization", "Globalization\AC.Globalization\AC.Globalization.csproj", "{EA75047A-798D-41A2-90A7-E6E81EE2491E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Presentation", "Presentation\AC.Presentation\AC.Presentation.csproj", "{0F1D96EB-D755-4795-ABAA-8365EEE5A1E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Presentation", "Presentation\AC.Presentation\AC.Presentation.csproj", "{0F1D96EB-D755-4795-ABAA-8365EEE5A1E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Security", "Security\AC.Security\AC.Security.csproj", "{19146779-CBDA-4AFF-B092-F606131CC94D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Security", "Security\AC.Security\AC.Security.csproj", "{19146779-CBDA-4AFF-B092-F606131CC94D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AC.Data.IoC", "Data\AC.Data.IoC\AC.Data.IoC.csproj", "{1E89E601-26B0-4C38-8795-46259237EB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC.Composition", "IoC\AC.IoC.Composition\AC.Composition.csproj", "{3543BE2F-C762-4710-88CC-55F7FEB24F08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{19146779-CBDA-4AFF-B092-F606131CC94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19146779-CBDA-4AFF-B092-F606131CC94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19146779-CBDA-4AFF-B092-F606131CC94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E89E601-26B0-4C38-8795-46259237EB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E89E601-26B0-4C38-8795-46259237EB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E89E601-26B0-4C38-8795-46259237EB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E89E601-26B0-4C38-8795-46259237EB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3543BE2F-C762-4710-88CC-55F7FEB24F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3543BE2F-C762-4710-88CC-55F7FEB24F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3543BE2F-C762-4710-88CC-55F7FEB24F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3543BE2F-C762-4710-88CC-55F7FEB24F08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +134,8 @@ Global
 		{EA75047A-798D-41A2-90A7-E6E81EE2491E} = {6FDE453C-7180-4E9D-B9DA-A1A8D7A80589}
 		{0F1D96EB-D755-4795-ABAA-8365EEE5A1E7} = {48E2C159-091D-44A9-AB58-CB8B4CB9D529}
 		{19146779-CBDA-4AFF-B092-F606131CC94D} = {93B5FC09-18FA-40C2-9A80-F2F2A5F0C2C7}
+		{1E89E601-26B0-4C38-8795-46259237EB98} = {DBA4597D-36D3-4109-8C86-22CB481F4363}
+		{3543BE2F-C762-4710-88CC-55F7FEB24F08} = {54C5369E-A90A-49AD-A73A-052AB5EEC834}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FFDAAC7E-89B6-4F87-B5C7-E9FEE3CA354F}

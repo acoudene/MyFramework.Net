@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\AC.Common\AC.Common.csproj" />
+    <ProjectReference Include="..\..\IoC\AC.IoC\AC.IoC.csproj" />
+    <ProjectReference Include="..\AC.Data\AC.Data.csproj" />
+  </ItemGroup>
+
+</Project>
